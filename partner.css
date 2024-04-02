@@ -1,0 +1,43 @@
+#partner{
+    margin: 100px auto;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.logo-container img{
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: all ease 0.3s;
+}
+.logo-container img:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+
+#partner{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.category-heading,
+.product-heading,
+.partner-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-heading h2,
+.product-heading h3,
+.partner-heading h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #202020;
+    letter-spacing: 0.5px;
+}
